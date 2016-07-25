@@ -1,0 +1,98 @@
+1) The size of a disk file
+
+int sizeOfDisk;
+public void setSizeOfDisk(int sizeOfDisk)
+{
+this.sizeOfDisk = sizeOfDisk;
+}
+public int getSizeOfDisk(){
+return sizeOfDisk;
+}
+
+2) The number of acres in a plot of land
+int numOfAcres;
+public void setSizeofAcres(int numOfAcres)
+{
+this.numOfAcres = numOfAcres;
+}
+public int getSizeofAcres()
+{
+return sizeOfAcres;
+}
+
+3) The name of a file
+
+String fileName;
+
+public void setFileName(String fileName)
+{
+this.fileName = fileName;
+}
+
+public String getFileName(){
+return fileName;
+}
+
+4) A fully formatted phone number (i.e. "801-803-3638")
+
+String phoneNumber;
+
+public void setPhoneNumber(String phoneNumber){
+this.phoneNumber = phoneNumber;
+}
+public String getPhoneNumber(){
+return phoneNumber;
+}
+
+5) A company name
+String companyName;
+
+public void setCompanyName(String companyName){
+this.companyName = companyName;
+}
+public String getCompanyName(){
+return companyName;
+}
+
+6) Today's date
+
+
+7) The state of a light switch
+
+8) Pi
+double pi;
+
+public void setPi(double pi)
+{
+this.pi = pi;
+}
+
+public double getPi(){
+return pi;
+}
+
+9) The speed of light in a vacuum
+double speedLightOfVacuum;
+
+public void setSpeedLightOfVacuum(double speedLightOfVacuum){
+this.speedLightOfVacuum = speedLightOfVacuum;
+}
+
+public double getSpeedLightOfVacuum(){
+return speedLightOfVacuum;
+}
+
+10) An instance of a class named Vehicle
+
+Vehicle v1 = new Vehile();
+
+
+11) An instance of a class named Address
+
+Address a1 = new Address();
+
+12) An array of instances of a class named Product
+Product p1 = new Product();
+p1.addProduct("Sony Tv");
+p1.addProduct("Samsung Phone");
+p1.addProduct("Iphone");
